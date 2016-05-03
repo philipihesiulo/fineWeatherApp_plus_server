@@ -1,0 +1,28 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "A simple app for checking weather conditions across the globe",
+  "main": "weather_node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipihesiulo/fineWeatherApp_plus_server.git"
+  },
+  "keywords": [
+    "weather-app",
+    "weather-app",
+    "mobile-weather-app",
+    "sleek-app"
+  ],
+  "author": "Philip Ihesiulo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philipihesiulo/fineWeatherApp_plus_server/issues"
+  },
+  "homepage": "https://github.com/philipihesiulo/fineWeatherApp_plus_server#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

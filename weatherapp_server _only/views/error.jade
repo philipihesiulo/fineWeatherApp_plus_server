@@ -1,0 +1,6 @@
+extends ./index 
+block content
+      if (data.error)
+        #error #{data.error.message}
+      else
+        #error #{data.message}

@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Weather App
+    link(rel="stylesheet" href="css/style.css")
+  body
+    #app
+      #more
+        form(action="/send", mathod="POST")
+          input(type="text", id="search", placeholder="Search Location", name="location", required)
+          button(type="submit")#submit
+            img(src="img/search.svg")
+      block content

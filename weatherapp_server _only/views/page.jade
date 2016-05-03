@@ -1,0 +1,32 @@
+extends ./index
+block content
+      #mainDisplay
+        #city #{data.city}
+        #country #{data.country}
+        #mainTemp 
+          span #{data.temperature} 
+          | &#8451;
+        #time #{data.time}
+      
+      #lowerApp
+        #otherDisplay
+          #weatherDesc #{data.condition}
+          #pressure.info
+            label Pressure : 
+            .value
+              span #{data.pressure} 
+              | inches
+          #coord
+            #lat.info
+              label Latitude :
+              .value
+                span #{data.latitude} 
+                | &deg;
+                
+            #lon.info
+              label Longitude :
+              .value
+                span #{data.longitude} 
+                | &deg;
+        script(src="../js/jquery-1.11.2.min.js")
+        script(src="../js/app.js")
